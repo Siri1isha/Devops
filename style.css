@@ -1,0 +1,107 @@
+body {
+    font-family: 'Times new roman', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#1a3455;
+}
+nav {
+    background-color: #1a3455; /* Dark blue-gray */
+    color: #97e0ed; /* Light gray */
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+    padding: 0 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+nav li:hover a {
+    color: #3498db; /* Highlight color on hover */
+}
+
+header {
+  background-color:#456287;
+  color: rgb(190, 190, 190);
+  text-align: center;
+  padding: 1em 0;
+  display: flex; /* Make the header a flex container */
+  align-items: center; /* Align the header content vertically */
+}
+
+header img {
+  border-radius: 50%;
+  margin-right: 20px; /* Add spacing between the image and heading */
+  width: 80px; /* Set the image width */
+  height: auto; /* Maintain the image's aspect ratio */
+}
+
+header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0; /* Remove the top margin */
+}
+
+header p {
+  font-size: 16px;
+  margin: 0; /* Remove the top margin */
+  line-height: 1.6; /* Set line spacing for better readability */
+}
+
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #87d2de;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #7098dc;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+p {
+    color: #555555;
+    line-height: 1.6;
+}
+
+#about {
+    margin-top: 20px;
+}
+
+#interests {
+    background-color: #82daea;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #171a1f;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
